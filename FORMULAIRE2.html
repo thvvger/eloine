@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>Formulaire d'entrée</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Formulaire d'entrée</h1>
+        <form>
+            <fieldset>
+                <legend>Etat Civil</legend>
+
+                <P>
+                    <label for="Matricule">Matricule ::</label>
+                    <input type="text" id="Matricule"name="matrcule">
+                </P>
+
+                <P>
+                    <label for="nom">Nom ::</label>
+                    <input type="text" id="nom"name="nom">
+                </p> 
+    
+                <p>
+                    <label for="prenom">Prénom ::</label>
+                    <input type="text" id="prenom"name="prenom">
+                </p> 
+
+                <div class="form-groupe">
+                    <label>Sexe</label>
+                    <input type="radio" id="homme" name="sexe" value="Homme">
+                    <label for="homme" style="width: auto;">Homme</label>
+                    <input type="radio" id="femme" name="sexe" value="Femme">
+                    <label for="femme" style="width: auto;">Femme</label>
+                </div> 
+
+                <P>
+                    <label for="datenaissance">Date de naissance ::</label>
+                    <input type="text" id="datenaissance"name="datenaissance">
+                </P> 
+
+                <P>
+                    <label for="age">Äge ::</label>
+                    <input type="number" id="age"name="age"  min="0">
+                </p> 
+
+                </legend>
+            </fieldset>
+
+                <fieldset>
+                    <legend>Mes Diplomes</legend>
+                    
+                <div class="form-groupe">
+                    <input type="checkbox" id="cep"name="Diplomes"  value="CEP">
+                    <label for="cep" style="width: auto;">CEP</label>
+                </div> 
+                   
+                <div class="form-groupe">
+                    <input type="checkbox" id="bepc"name="Diplomes"  value="BEPC">
+                    <label for="bepc" style="width: auto;">BEPC</label>
+                </div> 
+
+                <div class="form-groupe">
+                    <input type="checkbox" id="bac"name="Diplomes"  value="BAC">
+                    <label for="bac" style="width: auto;">BAC</label>
+                </div> 
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Expertise</legend>
+                    <div class="form-groupe">
+                        <input type="radio" id="Expertit"name="Expertise"  value="Expert IT">
+                        <label for="Expertit" style="width: auto;">Expert IT</label>
+                    </div> 
+
+                    <div class="form-groupe">
+                        <input type="radio" id="Expertbarvadage"name="Expertise"  value="Expertbarvadage">
+                        <label for="Expertbarvadage" style="width: auto;">Expert Barvadage</label>
+                    </div> 
+                </fieldset>
+
+                
+                    <div class="form-buttons ">
+                        <button type="submit">Envoyer</button>
+                        <button type="reset">Effacer</button>
+                        <button type="button">Quitter</button>
+                    </div>
+
+                    
+                
+        </form>
+    
+    
+    </body>
